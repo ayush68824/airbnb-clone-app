@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#f7f7f7"/>
+  <text x="48" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#222">Vacation rental marketplace</text>
+  <text x="48" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#555">Guest site, host tools, API, data, and photos.</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#222">
+    <rect x="48" y="120" width="200" height="72" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="148" y="152" text-anchor="middle" font-weight="600">Guest web app</text>
+    <text x="148" y="172" text-anchor="middle" fill="#555" font-size="12">Listing, search, booking</text>
+
+    <rect x="280" y="120" width="200" height="72" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="380" y="152" text-anchor="middle" font-weight="600">Host web app</text>
+    <text x="380" y="172" text-anchor="middle" fill="#555" font-size="12">Calendar, pricing, inbox</text>
+
+    <rect x="512" y="120" width="200" height="72" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="612" y="152" text-anchor="middle" font-weight="600">Mobile clients</text>
+    <text x="612" y="172" text-anchor="middle" fill="#555" font-size="12">Same API as the web</text>
+
+    <rect x="760" y="130" width="180" height="52" rx="12" fill="#222"/>
+    <text x="850" y="162" text-anchor="middle" fill="#fff" font-weight="600">Edge CDN</text>
+
+    <path d="M248 156 H280 M480 156 H512 M712 156 H760" stroke="#222" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <rect x="48" y="240" width="1304" height="250" rx="16" fill="#fff" stroke="#ddd"/>
+  <text x="72" y="272" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#222">Application tier</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#222">
+    <rect x="72" y="296" width="190" height="150" rx="12" fill="#fff5f7" stroke="#ff385c"/>
+    <text x="167" y="328" text-anchor="middle" font-weight="700">API gateway</text>
+    <text x="167" y="354" text-anchor="middle">Auth and rate limits</text>
+    <text x="167" y="376" text-anchor="middle">Request routing</text>
+    <text x="167" y="398" text-anchor="middle">Static pages at the edge</text>
+
+    <rect x="300" y="296" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="380" y="336" text-anchor="middle" font-weight="600">Listings</text>
+    <rect x="480" y="296" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="560" y="336" text-anchor="middle" font-weight="600">Search</text>
+    <rect x="660" y="296" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="740" y="336" text-anchor="middle" font-weight="600">Availability</text>
+    <rect x="840" y="296" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="920" y="336" text-anchor="middle" font-weight="600">Bookings</text>
+    <rect x="1020" y="296" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="1100" y="336" text-anchor="middle" font-weight="600">Payments</text>
+
+    <rect x="300" y="384" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="380" y="424" text-anchor="middle" font-weight="600">Reviews</text>
+    <rect x="480" y="384" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="560" y="424" text-anchor="middle" font-weight="600">Messaging</text>
+    <rect x="660" y="384" width="160" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="740" y="424" text-anchor="middle" font-weight="600">Identity</text>
+    <rect x="840" y="384" width="220" height="70" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="950" y="416" text-anchor="middle" font-weight="600">Media processing</text>
+    <text x="950" y="436" text-anchor="middle" fill="#555">Photo sizes for the listing</text>
+  </g>
+
+  <rect x="48" y="520" width="1304" height="210" rx="16" fill="#fff" stroke="#ddd"/>
+  <text x="72" y="552" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#222">Data and search</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#222">
+    <rect x="72" y="576" width="230" height="120" rx="12" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="187" y="612" text-anchor="middle" font-weight="700">Primary database</text>
+    <text x="187" y="636" text-anchor="middle">Users, listings, bookings</text>
+    <text x="187" y="656" text-anchor="middle">Read replicas for listing pages</text>
+
+    <rect x="326" y="576" width="230" height="120" rx="12" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="441" y="612" text-anchor="middle" font-weight="700">Search index</text>
+    <text x="441" y="636" text-anchor="middle">Location, dates, price, filters</text>
+    <text x="441" y="656" text-anchor="middle">Updated from listing changes</text>
+
+    <rect x="580" y="576" width="230" height="120" rx="12" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="695" y="612" text-anchor="middle" font-weight="700">Cache</text>
+    <text x="695" y="636" text-anchor="middle">Listing pages and availability</text>
+    <text x="695" y="656" text-anchor="middle">Prices and dates refresh often</text>
+
+    <rect x="834" y="576" width="230" height="120" rx="12" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="949" y="612" text-anchor="middle" font-weight="700">Object storage</text>
+    <text x="949" y="636" text-anchor="middle">Original photos</text>
+    <text x="949" y="656" text-anchor="middle">Served through the CDN</text>
+
+    <rect x="1088" y="576" width="230" height="120" rx="12" fill="#f7f7f7" stroke="#ddd"/>
+    <text x="1203" y="612" text-anchor="middle" font-weight="700">Queue</text>
+    <text x="1203" y="636" text-anchor="middle">Emails, photo jobs</text>
+    <text x="1203" y="656" text-anchor="middle">Runs after a booking</text>
+  </g>
+
+  <rect x="48" y="756" width="1304" height="110" rx="16" fill="#222"/>
+  <text x="72" y="792" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">Deployment</text>
+  <text x="72" y="822" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#eee">The site and photos are served from the CDN. API services sit behind the gateway.</text>
+  <text x="72" y="844" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#eee">Listing reads can use a replica. Emails and photo jobs go through the queue.</text>
+</svg>
